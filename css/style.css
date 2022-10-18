@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "fontello";
+  src: url("../fonts/fontello.eot?86804025");
+  src: url("../fonts/fontello.eot?86804025#iefix") format("embedded-opentype"), url("../fonts/fontello.woff2?86804025") format("woff2"), url("../fonts/fontello.woff?86804025") format("woff"), url("../fonts/fontello.ttf?86804025") format("truetype"), url("../fonts/fontello.svg?86804025#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^=icon-]:before,
+[class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: 0.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(87, 13, 26);
+  color: #FFFDD0;
+  font-family: "Bookman Old Style", arial;
+}
+
+header {
+  padding-left: 1rem;
+  background-color: rgb(136, 35, 53);
+  margin-bottom: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+header h1 {
+  max-width: 220px;
+  text-align: center;
+}
+
+div.mainContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.mainContainer aside {
+  background-color: rgb(136, 35, 53);
+  margin-right: 5rem;
+  border: 6px solid rgb(53, 4, 13);
+  border-radius: 0px 15px 15px 0px;
+}
+div.mainContainer aside menu {
+  margin-right: 3rem;
+  margin: 0 auto;
+  list-style: none;
+}
+div.mainContainer aside li {
+  margin: 1rem 0;
+}
+div.mainContainer aside li :last-of-type span.icon-itaku {
+  position: relative;
+  margin-right: 1.2rem;
+  width: max-content;
+}
+div.mainContainer aside li a {
+  color: #FFFDD0;
+  text-decoration: none;
+  width: 150px;
+  display: block;
+}
+div.mainContainer aside li a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+}
+div.mainContainer aside li span {
+  font-size: 15px;
+  color: #FFFDD0;
+}
+div.mainContainer main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+div.mainContainer main img {
+  width: 800px;
+}
+
+.icon-tumblr:before {
+  content: "\e800";
+}
+
+.icon-mug-saucer-solid:before {
+  content: "\e801";
+}
+
+.icon-twitter:before {
+  content: "\e802";
+}
+
+.icon-instagram:before {
+  content: "\e803";
+}
+
+.icon-discord:before {
+  content: "\e804";
+}
+
+.icon-tumblr:before {
+  content: "\e800";
+}
+
+.icon-mug-saucer-solid:before {
+  content: "\e801";
+}
+
+.icon-twitter:before {
+  content: "\e802";
+}
+
+.icon-instagram:before {
+  content: "\e803";
+}
+
+.icon-discord:before {
+  content: "\e804";
+}
+
+.icon-cd:before {
+  content: "\e805";
+}
+
+.icon-circle-empty:before {
+  content: "\f10c";
+}
+
+.icon-circle:before {
+  content: "\f111";
+}
+
+/*# sourceMappingURL=style.css.map */
